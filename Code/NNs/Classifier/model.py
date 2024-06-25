@@ -65,7 +65,7 @@ for epoch in range(n_epochs):
 
 ''' Model Testing
 '''
-from torch.utils.data import Dataset, DataLoader
+
 batch_test = 1
 loader_test = DataLoader(list(zip(test_dt, test_label)), shuffle= False, batch_size=batch_test)
 
